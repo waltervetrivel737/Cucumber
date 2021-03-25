@@ -6,7 +6,9 @@ public class Gitproj {
 		System.out.println("walter2");
 		System.out.println("w3");
 		System.out.println("w4");
+		System.out.println("wv 1st");
 		System.out.println("vetri 2nd push");
+
 	}
 
 }
