@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6606013022,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is in Timpson page",
+            "match": {
+              "location": "ExecutableClass.user_is_in_Timpson_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-28T12:26:18.917Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2936929980,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeexecution()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To validate End to End automation",
+        "description": "",
+        "id": "to-automate-timpson-page;to-validate-end-to-end-automation",
+        "after": [
+          {
+            "result": {
+              "duration": 579075324,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterexecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5316999196,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters valid emailId \u0026 password and clicks login",
+            "match": {
+              "location": "ExecutableClass.user_enters_valid_emailId_password_and_clicks_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "waltervetrivel737@gmail.com",
+                  "walter4609"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8455333596,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User searchs Zippo Lighters and add to cart",
+            "match": {
+              "location": "ExecutableClass.user_searchs_Zippo_Lighters_and_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7053644679,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User searchs Zippo Accessories and add to cart",
+            "match": {
+              "location": "ExecutableClass.user_searchs_Zippo_Accessories_and_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4090680986,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User gives add to cart",
+            "match": {
+              "location": "ExecutableClass.user_gives_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1382169483,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters personal detials",
+            "match": {
+              "location": "ExecutableClass.user_enters_personal_detials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 436393,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User displyed with Payment Detials",
+            "match": {
+              "location": "ExecutableClass.user_displyed_with_Payment_Detials()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To automate Timpson page",
+    "description": "",
+    "id": "to-automate-timpson-page",
+    "keyword": "Feature",
+    "uri": "file:Timpson.feature",
+    "tags": []
+  }
+]
