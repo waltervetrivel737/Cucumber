@@ -11,7 +11,7 @@ public class JvmReports {
 	
 	public static void togenrtJvmreport(String jsonpath) {
 		
-		File f=new File(System.getProperty("user.dir")+"\\src\\test\\resources\\Reports\\Jvmreports");
+		File f=new File("C:\\Users\\PROBOOK\\eclipse-workspace\\GIT PROJTS\\SampleGit\\Reports\\jvmreport");
 		Configuration con=new Configuration(f, "");
 		con.addClassifications("platform", "windows");
 		con.addClassifications("browser", "chrome");
