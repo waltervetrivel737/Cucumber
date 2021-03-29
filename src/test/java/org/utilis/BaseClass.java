@@ -17,6 +17,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -192,5 +193,23 @@ public class BaseClass {
 			value = String.valueOf(l);
 		}
 		return value;
+	}
+	public static void switchWindos() {
+		String pwindo = dri.getWindowHandle();
+		Set<String> allwindos = dri.getWindowHandles();
+		for (String wid : allwindos) {
+			if (!wid.equals(pwindo)) {
+				dri.switchTo().window(wid);
+			}
+		}
+		
+	}
+
+	public static void switchWithoutLoop(int windex) {
+		Set<String> allwindos = dri.getWindowHandles();
+		List<String> li=new ArrayList<String>();
+		li.addAll(allwindos);
+		String indx = li.get(windex);
+		dri.switchTo().window(indx);
 	}
 }
